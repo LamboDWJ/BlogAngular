@@ -1,0 +1,28 @@
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+
+.post {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.created-date {
+  font-size: 20px;
+  font-style: italic;
+  text-align: end;
+}
+
+.title {
+  max-width: 85%;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.like-button {
+  margin-right: 4px;
+}
